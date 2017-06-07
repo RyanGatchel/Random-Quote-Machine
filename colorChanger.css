@@ -1,0 +1,23 @@
+@keyframes color-animation {
+  0%{
+    background:#ffff99;
+  }
+  20%{
+    background:#ffff4d;
+  }
+  40%{
+    background: #FFD600;
+  }
+  60%{
+    background:#FFAD00;
+  }
+  80%{
+    background:#FF8F00;
+  }
+  100%{
+    background:#FF6600;
+  }
+}
+body{
+  animation: color-animation 10s infinite linear alternate;
+}
