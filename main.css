@@ -1,0 +1,54 @@
+body{
+  margin: auto;
+  width:50%;
+  padding:10px;
+  text-align:center;
+  font-family: 'Alegreya', serif;
+  color:black;
+}
+#box{
+  margin:auto 0;
+  padding: 10px 10px;
+}
+#quote{
+  margin:auto 0;
+}
+.thequote {
+  color:;
+  align:center;
+  font-size: 25px; 
+}
+
+.author{
+  color:
+}
+
+button{
+  padding:3% 5%;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px;
+  border-radius:8px;
+  width:25%;
+  cursor:pointer;
+  -webkit-transition-duration: 0.7s; /*Safari*/
+  transition-duration: 0.7s;
+}
+
+.share{
+  border: 1px solid #4d4dff;
+  color:black;
+}
+.share:hover{
+  background-color: #4d4dff;
+  color:white;
+}
+.newQuote{
+  border:1px solid #cb0e40;
+  color:black;
+}
+.newQuote:hover{
+  background-color:#cb0e40;
+  color:white;
+}
